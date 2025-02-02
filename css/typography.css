@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'Vladivostok';
+  src: url('../fonts/Vladivostokbold.woff2') format('woff2'),
+    url('../fonts/Vladivostokbold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+    url('../fonts/Inter-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+    url('../fonts/Inter-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Заголовки */
+h1 {
+  font-family: 'Vladivostok', sans-serif;
+  font-weight: bold;
+  font-size: 76px;
+  line-height: 83.6px;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Vladivostok', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 100%;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Vladivostok', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 100%;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Vladivostok', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  margin: 0;
+}
+
+/* Текст */
+.t1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0;
+}
+
+.t2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0;
+}
+
+.t3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0;
+}
+
+.t4 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  margin: 0;
+}
+
+/* Медиазапросы для адаптивности */
+@media (max-width: 1920px) {
+  h1 {
+    font-size: 76px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .t1 {
+    font-size: 20px;
+  }
+  .t2 {
+    font-size: 16px;
+  }
+  .t3 {
+    font-size: 14px;
+  }
+  .t4 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1315px) {
+  h1 {
+    font-size: 42px;
+    line-height: 110%;
+    letter-spacing: 0%;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0%;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .t1 {
+    font-size: 20px;
+  }
+  .t2 {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+  .t3 {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+  .t4 {
+    font-size: 12px;
+  }
+}
+
+/* @media (max-width: 374px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .t1 {
+    font-size: 20px;
+  }
+  .t2 {
+    font-size: 16px;
+  }
+  .t3 {
+    font-size: 14px;
+  }
+  .t4 {
+    font-size: 12px;
+  }
+} */
