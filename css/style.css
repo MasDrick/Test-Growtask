@@ -919,6 +919,9 @@ input:checked ~ .image-container .block {
   .form-content {
     height: auto;
   }
+  .form-desc {
+    margin-bottom: 20px;
+  }
   .popup-container {
     width: 100%;
   }
